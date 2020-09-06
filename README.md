@@ -4,6 +4,6 @@ Galaxies are factories that convert gas into stars, and in the process they cons
 
 In [chemical_clocks.ipynb](chemical_clocks.ipynb) I am using a XGBoost regressor to predict the age of stars. The Machine Learning algorithm is trained over a sample of star whose ages and chemical abundances of different elements (iron, oxygen, barium, sodium, magnesium, yittrium, and titatium) are well known. 
 
-The figure below show the result of the modelling: the predicted age is plotted as a function of the actual age.
+The figure below shows the results of this modelling: the predicted age is plotted as a function of the actual age. As expected, there is an excellent relation between the two.
 ![fig](chemical_clock.png)
 
